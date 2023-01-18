@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio HTML Project</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 
     <header>
       <nav id="navbar">
-        <a href="#about">about</a>
+        <a href="#welcome-section">about</a>
         <a href="#projects">projects</a>
         <a href="#contact">contact</a>
       </nav>
@@ -23,8 +23,11 @@
 
     <section id="welcome-section">
       <h1>Welcome to our Sample Portfolio</h1>
-      <a href="https://github.com/mahabubx7" target="_blank" id="profile-link">mahabub</a>
-      <a href="https://github.com/Seth-Nas" target="_blank" id="profile-link">nasir</a>
+      
+      <div class="links">
+        <a href="https://github.com/mahabubx7" target="_blank" id="profile-link">mahabub</a>
+        <a href="https://github.com/Seth-Nas" target="_blank" id="profile-link">nasir</a>
+      </div>
     
     </section>
 
@@ -33,30 +36,36 @@
       <div class="project-container">
         
         <div class="project-tile">
-          <a href="#">Live Preview</a>
-    
-        </div><div class="project-tile">
-          <a href="#">Live Preview</a>
-    
+          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="project">
+          <a href="https://mahabubx7.github.io/html-proj/" target="_blank">Live Preview</a>
+        </div>
+
+       <div class="project-tile">
+          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+          <a href="https://mahabubx7.github.io/html-project/" target="_blank">Live Preview</a>
         </div>
       </div>
     </section>
 
     <section id="contact">
       <h2>You can reach us on...</h2>
-      <div>
+      <div class="links">
         <a href="#">Facebook</a>
         <a href="#">Github</a>
         <a href="#">Twitter</a>
         <a href="#">LinkedIn</a>
         <a href="#">Call us</a>
-          
-        
       </div>
 
     </section>
 
+    <footer>
+      <h2>All rights reserved by @mahabubx7 & @Seth-Nas</h2>
+    </footer>
+
   </main>
+
+  
 
 </body>
 
